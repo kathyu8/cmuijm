@@ -1,0 +1,15 @@
+.container.content .col-lg-3 {
+	position: relative;
+}
+
+p {
+	color: black;
+}
+
+.container.content .col-lg-3 img {
+	position: absolute;
+}
+
+.container.content .col-lg-3 img:nth-child(2):hover {
+	opacity: 0;
+}
