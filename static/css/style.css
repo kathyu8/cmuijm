@@ -1,0 +1,166 @@
+body {
+  padding-bottom: 40px;
+  /*background: */
+  background: rgba(99, 170, 141, 0.6); /*#63aa8d;*/
+  color:black;
+  margin: 0px auto 40px;
+  width: 1000px;
+}
+
+p {
+	color: #333;
+}
+
+header {
+	text-align: center;
+}
+
+.container {
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner {
+	text-align: center;
+	margin-left: -15px;
+	padding-right: 0px;
+	margin-top: 20px;
+}
+
+/* NAVBAR */
+nav ul {
+	height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+    padding-top: 20px;
+    position: relative;
+}
+
+nav li {
+	display: inline;
+	padding: 30px;
+}
+
+nav a {
+	text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    text-shadow: 0 1px 3px rgba(100,100,100,0.6);
+    color:#222;
+    font-size: 18px;
+	text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #444;
+}
+
+hr {
+	border-color: black;
+}
+
+#greeting {
+	text-shadow: 0 1px 3px rgba(100,100,100,0.6);
+	font-size: 23px;
+	color: #ddd;
+}
+
+#ijm {
+	color: black;
+	text-decoration: underline;
+}
+
+#ijm:hover {
+	color: #333;
+}
+
+.links {
+	position: absolute;
+	right: 0px;	
+	bottom: 10px;
+}
+
+.links a:not(:last-child) {
+	padding-right: 0px;
+}
+
+h4, h3, h2 {
+	margin-top: 0px;
+	text-shadow: 0 1px 1px rgba(200,200,200,0.6);
+}
+
+/* CONTENT ------------------------- */
+.content {
+	background: #60b9c3; 
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+	padding: 39px 50px;
+	margin-bottom: 30px;
+	min-height: 500px;
+}
+
+.container.content .row:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.container.content h3, #events{
+ color: #edd;
+ text-shadow: 0 2px 1px rgba(100,100,100,0.6);
+}
+
+.container.content a {
+	color:black;
+	text-decoration: underline;
+}
+
+.container.content a:hover {
+	color:#333;
+}
+
+.img-circle.col-lg-3 {
+	margin-top: 20px;
+	margin-left: 5px; 
+}
+
+.row h3 {
+	padding-top: 30px;
+	text-align: left;
+}
+
+.col-lg-4 .row {
+	margin-bottom: 10px;
+}
+
+/* MARKETING CONTENT---------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+  width:333px;
+}
+
+.marketing img {
+	text-align: center;
+	margin-top: 0px;
+}
+
+p .btn-default {
+	margin-top: -2px;
+	padding: 3px 8px;
+}
+
+.marketing h4 {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #c7d0d5;
+}
+
+.marketing .col-lg-4 p {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
